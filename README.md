@@ -41,15 +41,19 @@ AI Ops Agent is a full-stack application that classifies incoming text messages 
 
 ### Clone the repository
 
+```bash
 git clone https://github.com/cto234/ai-ops-agent.git
 cd ai-ops-agent
+```
 
 ---
 
 ### Backend setup
 
+```bash
 cd server
 npm install
+```
 
 Create a .env file in the server directory:
 
@@ -57,15 +61,19 @@ OPENAI_API_KEY=your_api_key_here
 
 Start backend server:
 
+```bash
 node index.js
+```
 
 ---
 
 ### Frontend setup
 
+```bash
 cd client
 npm install
 npm run dev
+```
 
 Frontend runs at:
 http://localhost:5173
@@ -84,16 +92,6 @@ It demonstrates:
 - Loading state
 - AI classification output
 - Priority-based visual response
-
----
-
-## Project Structure
-
-ai-ops-agent/
-  client/
-  server/
-  demo.gif
-  README.md
 
 ---
 
